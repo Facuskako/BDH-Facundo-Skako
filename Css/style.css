@@ -417,7 +417,7 @@ li.activo {
     .texto__seccion3 {
         display: flex;
         align-items: center;
-        margin-left: 50px;
+        margin-left: 30rem;
         width: 50rem;
         background-color: rgba(163, 213, 214, 40%);
     }
@@ -540,7 +540,7 @@ li.activo {
     .texto__seccion3 {
         display: flex;
         align-items: center;
-        margin-left: 50px;
+        margin-left: 30rem;
         width: 50rem;
         background-color: rgba(163, 213, 214, 40%);
     }
