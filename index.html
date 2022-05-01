@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
     <!--Link logos footer-->
     <script src="https://kit.fontawesome.com/6fa1d10ba8.js" crossorigin="anonymous"></script>
+    <!--Link Animaciones-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Barras de Hielo | Home |</title>
 </head>
 
@@ -55,7 +57,7 @@
         </section>
         <!--Seccion 2 index-->
         <section>
-            <div class="contenedor__seccion">
+            <div data-aos="fade-right" class="contenedor__seccion">
             <iframe class="video__principal" width="560" height="315" src="https://www.youtube.com/embed/qabrWwPtPZE"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -64,10 +66,10 @@
         </section>
         <!--Seccion 3 index-->
         <section>
-            <div class="contenedor__seccion3">
+            <div data-aos="zoom-in-down" class="contenedor__seccion3">
             <img class="imagen__seccion3" src="Imagenes-proyecto/imagen7.jpg" alt="Barras ejemplo">
             </div>
-            <div class="contenedor__sec">
+            <div class="contenedor__seccion3">
             <p class="texto__seccion3">Barras de hielo es una competencia representante del under patagónico y difusión de él.
 
                 En la actualidad, es uno de los eventos de freestyle mas reconocidos a nivel nacional por su
@@ -92,7 +94,11 @@
         </div>
     </footer>
 
-
+<!--------------Script Aos-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>

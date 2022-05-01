@@ -132,6 +132,20 @@ li.activo {
     font-size: 36px;
 }
 
+/*Animaciones Footer*/
+.fa-twitter:hover{
+    color: rgb(21, 193, 231);
+}
+.fa-facebook-f:hover{
+    color: rgb(18, 18, 211);
+}
+.fa-instagram:hover{
+    color: rgb(233, 124, 150);
+}
+.fa-youtube:hover{
+    color: red;
+}
+
 /*Info*/
 .gradiente__fondo {
     background: rgb(21, 193, 231);
@@ -208,6 +222,11 @@ li.activo {
     object-fit: cover;
     border: double rgb(63, 143, 181) 3px;
     background-color: rgba(0, 0, 0, 40%);
+    transition: all .5s;
+}
+.imagen__galeria:hover{
+    transform: scale(1.5);
+    z-index: 1;
 }
 
 /*Seccion 2*/
@@ -598,3 +617,5 @@ li.activo {
     }
 
     }
+
+    

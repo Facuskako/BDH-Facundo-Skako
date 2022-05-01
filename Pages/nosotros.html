@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
     <!--Link logo footer-->
     <script src="https://kit.fontawesome.com/6fa1d10ba8.js" crossorigin="anonymous"></script>
+    <!--Link animaciones-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Barras de Hielo | Nosotros |</title>
 </head>
 
@@ -23,30 +25,31 @@
         <!--Menu Navegable-->
         <nav class="menu__nav">
             <a href="../index.html"><img src="../Imagenes-proyecto/BARRAS LOGO.png" alt="BarrasLogo" class="logo__nav">
-            <ul class="items__nav">
-                <li>
-                    <a href="../index.html">Home</a>
-                </li>
-                <li>
-                    <a href="./info.html">Info</a>
-                </li>
-                <li>
-                    <a href="./galeria.html">Galeria</a>
-                </li>
-                <li class="activo">
-                    <a href="./nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="./contacto.html">Contacto</a>
-                </li>
-            </ul>
+                <ul class="items__nav">
+                    <li>
+                        <a href="../index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./info.html">Info</a>
+                    </li>
+                    <li>
+                        <a href="./galeria.html">Galeria</a>
+                    </li>
+                    <li class="activo">
+                        <a href="./nosotros.html">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
         </nav>
     </header>
 
     <main>
         <div>
             <div class="contenedor__encabezados">
-                <img class="imagen__encabezados" src="../Imagenes-proyecto/logobarrascorregido.png" alt="Barras logo graf">
+                <img class="imagen__encabezados" src="../Imagenes-proyecto/logobarrascorregido.png"
+                    alt="Barras logo graf">
                 <p class="titulos__encabezados">NOSOTROS</p>
             </div>
             <!--Seccion 1 Nosotros-->
@@ -54,19 +57,21 @@
                 <p class="encabezado__nosotros">Comunidad BDH</p>
             </div>
             <section>
-                <div class="nosotros__contenedor">
-                <img class="img__comunidad" src="../Imagenes-proyecto/bdh 2.jpg" alt="ImagenComunidadBDH">
-                <p class="parrafo__comunidad">“Barras de Hielo” es una competencia de freestyle rap representante del under patagónico y difusión
-                    de él que se encuentra en la provincia de Tierra del Fuego, en la localidad de Río grande. Nació el
-                    14 de Febrero del 2016 con vigencia correlativa hasta el día de hoy. </p>
-                </div>    
+                <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="nosotros__contenedor">
+                    <img class="img__comunidad" src="../Imagenes-proyecto/bdh 2.jpg" alt="ImagenComunidadBDH">
+                    <p class="parrafo__comunidad">“Barras de Hielo” es una competencia de freestyle rap representante
+                        del under patagónico y difusión
+                        de él que se encuentra en la provincia de Tierra del Fuego, en la localidad de Río grande. Nació
+                        el
+                        14 de Febrero del 2016 con vigencia correlativa hasta el día de hoy. </p>
+                </div>
             </section>
             <!--Seccion 2 Nosotros-->
             <div>
                 <p class="encabezado__nosotros">Nuestro Staff</p>
             </div>
             <section>
-                <div class="contenedor__encabezados--dos">
+                <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="contenedor__encabezados--dos">
                     <img class="img__comunidad--dos" src="../Imagenes-proyecto/bdh5.jpg" alt="ImagenStaffBDH">
                     <p class="parrafo__comunidad">Actualmente contamos catorce personas a cargo de la organización:
                         <br> Organizadores: Julian Cubilla, Facundo Baigorria y Lisandro Bianchi.
@@ -86,11 +91,10 @@
     </main>
 
     <footer class="footer__contenedor">
-            <img class="logo__footer" src="../Imagenes-proyecto/BARRAS LOGO.png" alt="">
+        <img class="logo__footer" src="../Imagenes-proyecto/BARRAS LOGO.png" alt="">
         <!--Redes Sociales-->
         <div class="logos__redes">
-            <a class="logos__redes" href="https://twitter.com/barrasdehielo_"><i
-                    class="fa-brands fa-twitter"></i></a>
+            <a class="logos__redes" href="https://twitter.com/barrasdehielo_"><i class="fa-brands fa-twitter"></i></a>
             <a class="logos__redes" href="https://www.facebook.com/BarrasDeHielo/"><i
                     class="fa-brands fa-facebook-f"></i></a>
             <a class="logos__redes" href="https://www.instagram.com/barrasdehielo/"><i
@@ -101,6 +105,11 @@
 
     </footer>
 
+    <!--------------Script Aos-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

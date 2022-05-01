@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
     <!--Link logo footer-->
     <script src="https://kit.fontawesome.com/6fa1d10ba8.js" crossorigin="anonymous"></script>
+    <!--Link animaciones-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Barras de Hielo | Galeria |</title>
 </head>
 
@@ -91,15 +93,15 @@
         </div>
         <!--Videos-->
         <div class="videos__galeria">
-            <iframe class="iframe__galeria" width="560" height="315" src="https://www.youtube.com/embed/rkQT3ShA9GA"
+            <iframe data-aos="fade-up" class="iframe__galeria" width="560" height="315" src="https://www.youtube.com/embed/rkQT3ShA9GA"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-            <iframe class="iframe__galeria" width="560" height="315" src="https://www.youtube.com/embed/VWuO5KvDwqI"
+            <iframe data-aos="fade-down" class="iframe__galeria" width="560" height="315" src="https://www.youtube.com/embed/VWuO5KvDwqI"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-            <iframe class="iframe__galeria" width="560" height="315" src="https://www.youtube.com/embed/OxP6mBFjlQQ"
+            <iframe data-aos="fade-up" class="iframe__galeria" width="560" height="315" src="https://www.youtube.com/embed/OxP6mBFjlQQ"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
@@ -119,7 +121,11 @@
     </footer>
 
 
-
+<!--------------Script Aos-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
