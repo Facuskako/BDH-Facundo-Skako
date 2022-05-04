@@ -11,13 +11,14 @@ html {
 .fondo__index {
     background-image: url(../Imagenes-proyecto/PUBLICOOO.jpg);
     background-size: cover;
+   
 }
 
 /*Menu Navegable*/
 .menu__nav {
     background-color: rgb(63, 143, 181);
     height: 75px;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -115,7 +116,7 @@ li.activo {
 .footer__contenedor {
     background-color: rgb(63, 143, 181);
     height: 150px;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
